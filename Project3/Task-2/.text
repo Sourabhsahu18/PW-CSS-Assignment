@@ -1,0 +1,15 @@
+Absolute Positioning:
+
+When an element is positioned absolutely, it is removed from the normal document flow.
+It is positioned relative to its closest positioned ancestor (if any), or the initial containing block (usually the viewport).
+Absolute positioning ignores other elements and overlaps them.
+Useful for creating overlays, tooltips, or positioning elements precisely
+
+
+
+Relative Positioning:
+
+Relative positioning does not remove the element from the normal flow.
+It shifts the element from its original position based on specified offsets (top, right, bottom, left).
+Other elements still occupy their original space, and the relative element affects their positioning.
+Useful for minor adjustments within the document flow

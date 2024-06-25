@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.box1 {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1; /* This will be below the green box */
+}
+.box2 {
+    background-color: green;
+    top: 100px;
+    left: 100px;
+    z-index: 2; /* This will be above the red box */
+}
+.box3 {
+    background-color: blue;
+    top: 150px;
+    left: 150px;
+    z-index: 3; /* This will be above both the red and green boxes */
+}

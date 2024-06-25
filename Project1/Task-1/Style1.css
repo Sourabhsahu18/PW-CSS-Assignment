@@ -1,0 +1,7 @@
+/* External CSS: This CSS is applied from an external file */
+.external {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}

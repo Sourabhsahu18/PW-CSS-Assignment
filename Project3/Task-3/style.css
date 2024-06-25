@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #fefefd;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 10rem auto;
+  background-color: #f9f98a;
+  padding: 2rem 5rem;
+}
+
+h2, p{
+  margin-bottom: 1rem;
+}
+
+img{
+  width: 30%;
+  padding: 20px;
+  float: right;
+}

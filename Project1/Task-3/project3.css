@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 6px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+input[type="submit"] {
+  width: 30%;
+  padding: 10px;
+  margin-left: 30%;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2b632d;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.personal-info {
+  background-color: #ffe6e6;
+}
+
+.contact-info {
+  background-color: #e6ffe6;
+}
+
+/* Opacity Define in this section */
+
+.additional-info {
+  background-color: #cce6ff;
+  opacity: 0.7;
+}
+#bio {
+  margin-left: 5px;
+}
+#interests {
+  margin-left: 5px;
+  margin-bottom: 8px;
+}

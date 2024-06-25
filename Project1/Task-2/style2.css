@@ -1,0 +1,51 @@
+
+ /* BEM Naming Convention*/
+/* Block: page-content */
+/* Element: paragraph */
+/* Modifier: primary, secondary, highlight, note, warning */
+
+.page-content__paragraph {
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Modifier: primary */
+.page-content__paragraph--primary {
+    background-color: #f0f8ff;
+    color: #00008b;
+    border: 1px solid #00008b;
+}
+
+/* Modifier: secondary */
+.page-content__paragraph--secondary {
+    background-color: #e6e6fa;
+    color: #4b0082;
+    border: 1px solid #4b0082;
+}
+
+/* Modifier: highlight */
+.page-content__paragraph--highlight {
+    background-color: #ffffe0;
+    color: #b8860b;
+    border: 1px solid #b8860b;
+ font-weight: bold;
+}
+
+/* Modifier: note*/
+.page-content__paragraph--note {
+    background-color: #f5fffa;
+    color: #2e8b57;
+    border: 1px solid #2e8b57;
+    font-style:italic ;
+}
+
+/* Modifier: warning */
+.page-content__paragraph--warning {
+    background-color: #fff5ee;
+    color: #b22222;
+    border: 1px solid #b22222;
+}   
+
+

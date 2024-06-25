@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+
+    <!-- Internal CSS: This CSS is applied directly within the HTML document -->
+    <style>
+      .internal {
+        background-color: lightblue;
+        color: white;
+        padding: 10px;
+        margin: 10px 0;
+      }
+    </style>
+
+    <!-- Link to External CSS: This CSS is applied from an external file -->
+    <link rel="stylesheet" href="Style1.css" />
+  </head>
+  <body>
+    <!-- Inline CSS: Applied directly to the HTML element via the style attribute. -->
+    <div
+      class="inline"
+      style="
+        background-color: rgb(254, 23, 62);
+        color: white;
+        padding: 10px;
+        margin: 10px 0;
+      "
+    >
+      Inline CSS: This div uses inline CSS.
+    </div>
+
+    <div class="internal">Internal CSS: This div uses internal CSS.</div>
+
+    <div class="external">External CSS: This div uses external CSS.</div>
+
+    <div
+      class="inline internal external"
+      style="
+        background-color: rgb(12, 153, 247);
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+      "
+    >
+      Conflicting CSS: This div is targeted by inline, internal, and external
+      CSS.
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
