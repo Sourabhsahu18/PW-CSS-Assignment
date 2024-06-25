@@ -9,6 +9,7 @@ body{
     background-color: #f5f5f5;
     width: 100vw;
     height: 100vh;
+    padding-top: 20px;
 }
 
 .container{
@@ -31,7 +32,7 @@ body{
 }
 
 .card img{
-    width: 280px;
+    width: 230px;
     height: 250px;
   
     border-radius: 30px;
